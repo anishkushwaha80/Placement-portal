@@ -124,6 +124,4 @@ Frontend automatically backend se baat karta hai (Vite proxy config already set 
 
 ---
 
-## Production Note
 
-Ye setup development/demo ke liye JSON-file database use karta hai — chhote scale placement drives ke liye bilkul theek hai. Agar aage bade scale (bohot zyada students/companies) par deploy karna ho, to `backend/models/db.js` ko replace karke MongoDB ya PostgreSQL jaisa real database use karna better rahega — baaki poora code (routes, auth, frontend) waise ka waisa reuse ho jayega.
