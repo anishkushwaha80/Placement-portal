@@ -1,3 +1,4 @@
+
 const jwt = require("jsonwebtoken");
 
 // Verifies the JWT sent in the Authorization header (Bearer <token>)
